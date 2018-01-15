@@ -1,0 +1,67 @@
+* {
+  font-family: 'Archivo', sans-serif;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+body, html {
+  height: 100%;
+}
+
+h1, h5 {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 80px;
+  color: #e09100;
+}
+
+h5 {
+  text-transform: uppercase;
+  width: 35%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+button {
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: orange;
+  padding: 10px;
+  margin: 10px 5px;
+  color: white;
+  background: #f7b30c;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background: orange;
+}
+
+.container {
+    background-image: url("./img/derek-liang-262633.jpg");
+    height: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-cont {
+  color: white;
+  position: relative;
+  top: 35%;
+}
+
+
+@media screen and (max-width: 1000px) {
+  h1, h5, button {
+    font-size: 1em;
+  }
+}
