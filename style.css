@@ -64,4 +64,9 @@ button:hover {
   h1, h5, button {
     font-size: 1em;
   }
+
+  h5 {
+    width: 75%;
+  }
+
 }
