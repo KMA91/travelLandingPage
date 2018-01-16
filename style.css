@@ -83,7 +83,7 @@ h5 {
   }
 
   .container-cont {
-    top: 25%;
+    top: 10%;
   }
 
   h1 {
@@ -92,6 +92,7 @@ h5 {
 
   h5 {
     font-size: 15px;
+    width: 75%;
   }
 
   button {
