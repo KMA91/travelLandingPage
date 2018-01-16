@@ -75,7 +75,7 @@ h5 {
 
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 320px) {
 
   .container {
     width: 100%;
@@ -89,5 +89,5 @@ h5 {
   h5 {
     font-size: 15px;
   }
-  
+
 }
