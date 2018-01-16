@@ -60,13 +60,15 @@ button:hover {
 }
 
 
-@media screen and (max-width: 1000px) {
-  h1, h5, button {
-    font-size: 1em;
-  }
+@media screen and (max-width: 414px) {
 
-  h5 {
-    width: 75%;
-  }
+h1 {
+  font-size: 55px;
+}
+
+h5 {
+  font-size: 20px;
+  width: 75%;
+}
 
 }
