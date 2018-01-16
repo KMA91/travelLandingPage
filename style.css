@@ -60,8 +60,47 @@ button:hover {
 }
 
 
-@media screen and (max-width: 1000px) {
-  h1, h5, button {
-    font-size: 1em;
-  }
+@media screen and (max-width: 414px) {
+
+h1 {
+  font-size: 55px;
+  font-weight: 800;
+}
+
+h5 {
+  font-size: 20px;
+  width: 75%;
+  font-weight: 600;
+}
+
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    .container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .container-cont {
+      top: 25%;
+    }
+
+    h1 {
+      font-size: 45px;
+    }
+
+    h5 {
+      font-size: 15px;
+      width: 75%;
+    }
+
+    button {
+      padding: 7px;
+    }
+
 }
