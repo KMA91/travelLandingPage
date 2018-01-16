@@ -75,28 +75,32 @@ h5 {
 
 }
 
-@media screen and (max-width: 321px) {
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
 
-  .container {
-    width: 100%;
-    height: 100%;
-  }
+    .container {
+      width: 100%;
+      height: 100%;
+    }
 
-  .container-cont {
-    top: 10%;
-  }
+    .container-cont {
+      top: 17%;
+    }
 
-  h1 {
-    font-size: 45px;
-  }
+    h1 {
+      font-size: 45px;
+    }
 
-  h5 {
-    font-size: 15px;
-    width: 75%;
-  }
+    h5 {
+      font-size: 15px;
+      width: 75%;
+    }
 
-  button {
-    padding: 7px;
-  }
+    button {
+      padding: 7px;
+    }
 
 }
