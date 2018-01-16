@@ -64,11 +64,13 @@ button:hover {
 
 h1 {
   font-size: 55px;
+  font-weight: 800;
 }
 
 h5 {
   font-size: 20px;
   width: 75%;
+  font-weight: 600;
 }
 
 }
